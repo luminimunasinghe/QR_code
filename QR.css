@@ -63,6 +63,21 @@ body{
 .error{
     animation:shake 0.1s linear 10 ;
 }
+.new p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-weight: 60;
+    font-size: 15px;
+    margin-bottom: 8px;
+    border-left: 6px;
+
+}
+
+.new p img{
+    width: 25px;
+    margin-right: 5px;
+    border-radius: 15px;
+}
 @keyframes shake{
     0%{
         transform: translateX(0);
